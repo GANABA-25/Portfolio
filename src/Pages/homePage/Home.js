@@ -16,11 +16,11 @@ import { motion } from "framer-motion";
 const HomePage = () => {
   return (
     <Fragment>
+      <NavigationBar />
       <section
         id="home"
         className="w-full m-auto lg:w-7/12 lg:m-auto font-serif"
       >
-        <NavigationBar />
         <div className="max-[767px]:mt-[5rem] p-4 md:mt-28 md:mx-4 lg:flex lg:mt-16">
           <div className="flex justify-center items-center">
             <motion.img

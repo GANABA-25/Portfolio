@@ -91,7 +91,7 @@ const Project = () => {
           className="flex text-xl font-bold md:text-4xl md:mb-8 lg:text-xl"
         >
           Each project is a unique piece of development
-          <FaProjectDiagram className="text-red-600 text-3xl relative top-8 right-48 md:text-5xl md:right-100 md:top-11 lg:top-2 lg:left-2 lg:text-3xl" />
+          <FaProjectDiagram className="text-red-600 text-3xl relative max-[767px]:top-8 max-[767px]:right-48 md:text-5xl md:right-100 md:top-11 lg:top-2 lg:left-2 lg:text-3xl" />
         </motion.p>
       </div>
 

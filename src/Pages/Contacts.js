@@ -53,7 +53,7 @@ const Contacts = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.08, duration: 1 }}
-            className="flex items-center gap-4 md:text-2xl lg:text-xl"
+            className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <RiContactsFill className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
             <strong>Contact :</strong>[ +233 596 498 006,
@@ -64,7 +64,7 @@ const Contacts = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 1 }}
-            className="flex items-center gap-4 md:text-2xl lg:text-xl"
+            className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <RiWhatsappFill className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
             <strong>WhatsApp :</strong>
@@ -75,7 +75,7 @@ const Contacts = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.14, duration: 1 }}
-            className="flex items-center gap-4 md:text-2xl lg:text-xl"
+            className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <MdMarkEmailRead className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
             <strong>Email :</strong>
@@ -86,7 +86,7 @@ const Contacts = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.18, duration: 1 }}
-            className="flex items-center gap-4 md:text-2xl lg:text-xl"
+            className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <FaSquareInstagram className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
             <strong> linkedin :</strong> [Nathaniel Owusu]
@@ -96,7 +96,7 @@ const Contacts = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.22, duration: 1 }}
-            className="flex items-center gap-4 md:text-2xl lg:text-xl"
+            className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <GrLinkedin className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
             <strong>Instagram :</strong> [Nathaniel Owusu]
@@ -106,7 +106,7 @@ const Contacts = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.24, duration: 1 }}
-            className="flex items-center gap-4 md:text-2xl lg:text-xl"
+            className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <FaTwitterSquare className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
             <strong>Twitter :</strong> [Nathaniel Owusu]
