@@ -39,7 +39,7 @@ const NavigationBar = () => {
   ];
 
   return (
-    <div className="max-[767px]:p-2 max-[767px]:bg-whiteGray max-[767px]:backdrop-blur-[100px] text-black fixed w-full top-0 z-50 cursor-pointer md:bg-whiteGray md:backdrop-blur-[100px] md:p-4 md:text-2xl lg:bg-inherit lg:backdrop-blur-0 lg:text-black lg:text-sm lg:flex lg:justify-end">
+    <div className="max-[767px]:p-2 max-[767px]:bg-whiteGray max-[767px]:backdrop-blur-[100px] text-black fixed w-full top-0 z-50 cursor-pointer md:bg-whiteGray md:backdrop-blur-[100px] md:p-4 md:text-2xl lg:bg-inherit lg:backdrop-blur-0 lg:text-black lg:text-[1rem] lg:flex lg:justify-end">
       <motion.ul className="flex justify-center items-center max-[767px]:gap-8 font-bold md:gap-12 lg:gap-5">
         {navLinks.map(({ id, label }) => (
           <motion.li

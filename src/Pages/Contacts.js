@@ -1,7 +1,6 @@
 import { MdMarkEmailRead } from "react-icons/md";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { GrLinkedin } from "react-icons/gr";
-import { FaTwitterSquare } from "react-icons/fa";
 import { PiPhoneDisconnectFill } from "react-icons/pi";
 import { RiContactsFill } from "react-icons/ri";
 import { RiWhatsappFill } from "react-icons/ri";
@@ -30,7 +29,7 @@ const Contacts = () => {
         transition={{ delay: 0.04, duration: 1 }}
         className="flex items-center gap-3 max-[767px]:text-2xl font-bold text-blue-600 md:text-3xl lg:text-xl"
       >
-        LET CONNECT.
+        LET'S CONNECT.
         <PiPhoneDisconnectFill className="max-[767px]:text-3xl text-red-600" />
       </motion.h1>
       <motion.p
@@ -56,8 +55,8 @@ const Contacts = () => {
             className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <RiContactsFill className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
-            <strong>Contact :</strong>[ +233 596 498 006,
-            <p className="hidden md:block m-0">+233 257 272 627,</p>]
+            <strong>Contact :</strong>+233 596 498 006,
+            <p className="hidden md:block m-0">+233 257 272 627,</p>
           </motion.li>
           <motion.li
             initial={{ opacity: 0, x: -75 }}
@@ -67,8 +66,7 @@ const Contacts = () => {
             className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
             <RiWhatsappFill className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
-            <strong>WhatsApp :</strong>
-            [+233 596 498 006,]
+            <strong>WhatsApp :</strong>+233 596 498 006,
           </motion.li>
           <motion.li
             initial={{ opacity: 0, x: -75 }}
@@ -79,7 +77,7 @@ const Contacts = () => {
           >
             <MdMarkEmailRead className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
             <strong>Email :</strong>
-            [NathanielOwusu01@gmail.com]
+            NathanielOwusu01@gmail.com
           </motion.li>
           <motion.li
             initial={{ opacity: 0, x: -75 }}
@@ -88,8 +86,15 @@ const Contacts = () => {
             transition={{ delay: 0.18, duration: 1 }}
             className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
-            <FaSquareInstagram className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
-            <strong> linkedin :</strong> [Nathaniel Owusu]
+            <GrLinkedin className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
+            <strong> linkedin :</strong>
+            <a
+              className="hover:text-red-600 cursor-pointer"
+              href="https://www.linkedin.com/in/nathanielowusu01"
+              target="blank"
+            >
+              Nathaniel Owusu
+            </a>
           </motion.li>
           <motion.li
             initial={{ opacity: 0, x: -75 }}
@@ -98,18 +103,15 @@ const Contacts = () => {
             transition={{ delay: 0.22, duration: 1 }}
             className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
           >
-            <GrLinkedin className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
-            <strong>Instagram :</strong> [Nathaniel Owusu]
-          </motion.li>
-          <motion.li
-            initial={{ opacity: 0, x: -75 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.24, duration: 1 }}
-            className="max-[767px]:text-sm flex items-center gap-4 md:text-2xl lg:text-xl"
-          >
-            <FaTwitterSquare className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
-            <strong>Twitter :</strong> [Nathaniel Owusu]
+            <FaSquareInstagram className="text-blue-600 max-[767px]:text-2xl md:text-4xl lg:text-xl" />
+            <strong>Github :</strong>
+            <a
+              className="hover:text-red-600 cursor-pointer"
+              href="https://github.com/Nathaniel-Owusu"
+              target="blank"
+            >
+              Nathaniel Owusu
+            </a>
           </motion.li>
         </ul>
       </div>
@@ -123,7 +125,7 @@ const Contacts = () => {
           className="md:text-2xl text-red-600 underline underline-offset-8 lg:text-xl"
         >
           <strong>Location : </strong>
-          <strong>[Kumasi, GHANA]</strong>
+          <strong>Kumasi and Accra GHANA</strong>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 75 }}
