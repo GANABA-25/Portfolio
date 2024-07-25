@@ -21,7 +21,7 @@ const TechStack = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.02, duration: 1 }}
-        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-7 lg:h-1/6 md:mx-4 lg:mx-5"
+        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-[1.7rem] lg:h-[1.7rem] md:mx-4 lg:mx-5"
         src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712436294/PORTFOLIO/html_jowq7b.png"
         alt="html"
       />
@@ -30,7 +30,7 @@ const TechStack = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.06, duration: 1 }}
-        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-7 lg:h-1/6 md:mx-4 lg:mx-5"
+        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-[1.7rem] lg:h-[1.7rem] md:mx-4 lg:mx-5"
         src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712436294/PORTFOLIO/css_tunheo.png"
         alt="css"
       />
@@ -39,7 +39,7 @@ const TechStack = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.1, duration: 1 }}
-        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-7 lg:h-1/6 md:mx-4 lg:mx-5"
+        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-[1.7rem] lg:h-[1.7rem] md:mx-4 lg:mx-5"
         src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712436295/PORTFOLIO/Javascript_l9uiwj.png"
         alt="javascript"
       />
@@ -48,7 +48,7 @@ const TechStack = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.14, duration: 1 }}
-        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-7 lg:h-1/6 md:mx-4 lg:mx-5"
+        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-[1.7rem] lg:h-[1.7rem] md:mx-4 lg:mx-5"
         src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712436295/PORTFOLIO/React_xkrlje.png"
         alt="react"
       />
@@ -56,8 +56,17 @@ const TechStack = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
+        transition={{ delay: 0.14, duration: 1 }}
+        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-[1.7rem] lg:h-[1.7rem] md:mx-4 lg:mx-5"
+        src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1716991964/PORTFOLIO/pngwing.com_1_nykv2n.png"
+        alt="NodeJS"
+      />
+      <motion.img
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
         transition={{ delay: 0.18, duration: 1 }}
-        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-7 lg:h-1/6 md:mx-4 lg:mx-5"
+        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-[1.7rem] lg:h-[1.7rem] md:mx-4 lg:mx-5"
         src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712436296/PORTFOLIO/Tailwind_pmblar.png"
         alt="tailwind"
       />
@@ -66,7 +75,7 @@ const TechStack = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.2, duration: 1 }}
-        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-7 lg:h-1/6 md:mx-4 lg:mx-5"
+        className="w-5 h-5 mt-2 mx-2 md:w-12 md:h-12 md:mt-2 lg:w-[1.7rem] lg:h-[1.7rem] md:mx-4 lg:mx-5"
         src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712436294/PORTFOLIO/Bootstrap_qsevym.png"
         alt="bootstrap"
       />
