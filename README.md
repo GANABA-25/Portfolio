@@ -1,16 +1,66 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website featuring responsive user interfaces, interactive projects, and a showcase of my expertise in MERN Stack development, modern web technologies, and scalable application design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Responsive and modern UI
+* Interactive project showcase
+* Smooth user experience
+* Reusable React components
+* Optimized performance with Vite
+* Clean and scalable project structure
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* HTML5
+* CSS3
 
-## Expanding the ESLint configuration
+## 📂 Projects Showcase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio includes selected projects that demonstrate my skills in:
+
+* Frontend Development
+* MERN Stack Applications
+* Responsive Web Design
+* API Integration
+* Component-Based Architecture
+* UI/UX Implementation
+
+## ⚡ Getting Started
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Navigate into the project directory:
+
+```bash
+cd <project-folder>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📸 Preview
+
+Explore the live portfolio to view my projects, skills, and development journey.
+
+## 📬 Contact
+
+Feel free to connect with me for collaborations, opportunities, or discussions related to web development.
