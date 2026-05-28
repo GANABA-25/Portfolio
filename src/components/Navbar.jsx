@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="fixed top-0 left-0 w-full flex justify-center md:justify-between items-center px-4 py-4 z-50 max-[767px]:bg-white max-[767px]:shadow-md">
+    <div className="fixed top-0 left-0 w-full flex justify-center md:justify-between items-center px-4 py-4 z-50 bg-white shadow-md lg:bg-none lg:shadow-none">
       <h1 className="hidden md:block font-bold text-base">
         NathanielOwusu.dev
       </h1>

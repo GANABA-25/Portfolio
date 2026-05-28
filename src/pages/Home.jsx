@@ -213,7 +213,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section id="home" className="max-w-4xl mx-auto md:mt-20">
+      <section id="home" className="max-w-4xl md:mx-auto md:mt-20 mx-4">
         <div className="flex flex-col gap-30">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-0 mt-20 md:mt-0">
             <div className="flex flex-col justify-center gap-5 w-full md:w-1/2 text-center md:text-left">
@@ -271,42 +271,43 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <div className="flex flex-col gap-2">
-            <div className="flex items-center gap-4">
+
+          <div className="flex flex-col gap-2 mx-4 lg:mx-0">
+            <div className="flex justify-center items-center gap-4">
               <h1 className="text-base font-black tracking-wide">Tech Stack</h1>
 
-              <div className="flex-1 h-px bg-gray-200" />
+              <div className="hidden md:flex-1 md:block h-px bg-gray-200" />
             </div>
 
             <div className="flex flex-wrap justify-center items-center gap-4 lg:ml-26">
               {TechStack.map((stack) => (
                 <div
                   key={stack.id}
-                  className="group w-12 h-12 flex items-center justify-center rounded-lg bg-gray-50 border border-gray-200 transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:bg-white"
+                  className="group w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-gray-50 border border-gray-200 transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:bg-white"
                 >
                   <img
-                    className="w-6 h-6 transition duration-300 group-hover:scale-110"
+                    className="w-3 h-3 md:w-6 md:h-6 transition duration-300 group-hover:scale-110"
                     src={stack.src}
                     alt={stack.alt}
                   />
                 </div>
               ))}
             </div>
-          </div> */}
+          </div>
         </div>
       </section>
 
-      {/* <section id="about" className="max-w-4xl mx-auto mt-42">
-        <div className="flex items-start justify-between gap-10">
-          <div className="w-1/2 h-full">
+      <section id="about" className="mx-4 lg:max-w-4xl lg:mx-auto mt-42">
+        <div className="flex max-[767px]:flex-col justify-center items-center lg:items-start lg:justify-between gap-10">
+          <div className="lg:w-1/2 h-full">
             <img
-              className="w-full h-full rounded-lg object-cover bg-black/5"
+              className="lg:w-full lg:h-full rounded-lg object-cover bg-black/5"
               src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712618515/PORTFOLIO/aboutImg_dbjpcr.png"
               alt="About illustration"
             />
           </div>
 
-          <div className="w-1/2 h-full flex flex-col gap-2">
+          <div className="lg:w-1/2 h-full flex flex-col gap-2">
             <h1 className="text-base font-black text-blue-600 uppercase tracking-wide">
               About Me
             </h1>
@@ -318,19 +319,23 @@ export default function Home() {
 
             <p className="text-base leading-relaxed text-gray-700">
               I'm a passionate <strong>Full Stack Developer </strong>
-              experienced <br /> in building responsive web and mobile
-              applications <br /> using HTML, CSS, Bootstrap, Tailwind CSS,
-              JavaScript, TypeScript, React, Next.js, and React Native .With
-              Node.js and MongoDB on the back end, I turn ideas into scalable,
-              high-performing digital solutions.
+              experienced <br className="hidden lg:block" /> in building
+              responsive web and mobile applications{" "}
+              <br className="hidden lg:block" /> using HTML, CSS, Bootstrap,
+              Tailwind CSS, JavaScript, TypeScript, React, Next.js, and React
+              Native .With Node.js and MongoDB on the back end, I turn ideas
+              into scalable, high-performing digital solutions.
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
 
-      {/* <section id="projects" className="max-w-4xl mx-auto mt-42">
+      <section
+        id="projects"
+        className="max-w-4xl mx-4 lg:mx-auto mt-20 md:mt-32"
+      >
         <div className="flex flex-col gap-8">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 md:text-left">
             <h1 className="text-base font-black uppercase text-blue-600 tracking-wider">
               Portfolio
             </h1>
@@ -340,20 +345,20 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-24">
+          <div className="flex flex-col gap-16 md:gap-24">
             {projectData.map((project, index) => (
               <div
                 key={project.id}
-                className={`flex items-stretch gap-10 ${
-                  index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+                className={`flex flex-col md:flex-row items-stretch gap-8 md:gap-10 ${
+                  index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
               >
-                <div className="w-1/2 h-full rounded-lg overflow-hidden group transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">
+                <div className="w-full md:w-1/2 rounded-lg overflow-hidden group transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">
                   <ImageSlider images={project.images} id={project.id} />
                 </div>
 
-                <div className="w-1/2 h-full flex flex-col justify-center gap-4">
-                  <h1 className="font-black text-base flex justify-center items-center gap-2">
+                <div className="w-full md:w-1/2 flex flex-col justify-center gap-4 text-center md:text-left">
+                  <h1 className="font-black text-base flex justify-center md:justify-center items-center gap-2">
                     {project.title} {project.icon}
                   </h1>
 
@@ -361,14 +366,14 @@ export default function Home() {
                     {project.description}
                   </p>
 
-                  <ul className="flex justify-center items-center gap-4 text-sm font-black text-gray-700">
+                  <ul className="flex flex-wrap justify-center md:justify-center gap-3 text-sm font-black text-gray-700">
                     <li>{project.techStack1}</li>
                     <li>{project.techStack2}</li>
                     <li>{project.techStack3}</li>
                     <li>{project.techStack4}</li>
                   </ul>
 
-                  <div className="flex justify-center items-center gap-6">
+                  <div className="flex flex-col sm:flex-row justify-center md:justify-center items-center gap-4 sm:gap-6">
                     <a
                       href={project.link1}
                       target="_blank"
@@ -404,9 +409,9 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
-      {/* <section id="contact" className="max-w-4xl mx-auto my-42">
+      <section id="contact" className="max-w-4xl lg:mx-auto my-42 mx-4">
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-4">
             <h1 className="text-base font-black uppercase text-blue-600 tracking-wider">
@@ -479,7 +484,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 }
