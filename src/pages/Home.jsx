@@ -213,34 +213,36 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section id="home" className="max-w-4xl mx-auto mt-20">
+      <section id="home" className="max-w-4xl mx-auto md:mt-20">
         <div className="flex flex-col gap-30">
-          <div className="flex justify-between items-stretch h-105">
-            <div className="flex flex-col justify-center gap-5 w-1/2 h-full">
-              <h1 className="text-6xl font-black leading-tight">
+          <div className="flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-0 mt-20 md:mt-0">
+            <div className="flex flex-col justify-center gap-5 w-full md:w-1/2 text-center md:text-left">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-black leading-tight">
                 Mern Stack <br />
-                <span className="inline-flex items-center gap-3">
+                <span className="inline-flex items-center justify-center md:justify-start gap-3">
                   Developer
                   <img
-                    className="w-20 inline-block"
+                    className="w-12 sm:w-16 md:w-20 inline-block"
                     src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712436295/PORTFOLIO/waving_hand_d8ov97.png"
                     alt="Waving hand"
                   />
                 </span>
               </h1>
 
-              <p className="text-base leading-relaxed">
-                Hi, I'm Nathaniel Owusu. A passionate Full Stack <br />
+              <p className="text-sm sm:text-base leading-relaxed">
+                Hi, I'm Nathaniel Owusu. A passionate Full Stack{" "}
+                <br className="hidden sm:block" />
                 Developer based in Ghana, Kumasi | Accra
                 <span className="inline-flex items-center ml-1">
                   <GrLocationPin className="text-blue-600" />
                 </span>
               </p>
 
-              <div className="flex items-center gap-4 text-base">
+              <div className="flex items-center justify-center md:justify-start gap-4 text-base">
                 <a
                   href="https://github.com/GANABA-25"
                   target="_blank"
+                  rel="noreferrer"
                   className="group w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 transition duration-300 hover:bg-black hover:text-white hover:-translate-y-1 hover:shadow-lg"
                 >
                   <AiFillGithub className="transition-transform duration-300 group-hover:scale-110" />
@@ -249,27 +251,27 @@ export default function Home() {
                 <a
                   href="https://linkedin.com/in/nathanielowusu01"
                   target="_blank"
-                  className="group w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 transition duration-300 
-               hover:bg-blue-600 hover:text-white hover:-translate-y-1 hover:shadow-lg"
+                  rel="noreferrer"
+                  className="group w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 transition duration-300 hover:bg-blue-600 hover:text-white hover:-translate-y-1 hover:shadow-lg"
                 >
                   <BsLinkedin className="transition-transform duration-300 group-hover:scale-110" />
                 </a>
               </div>
             </div>
 
-            <div className="flex items-center justify-center w-1/2 h-full">
-              <div className="relative w-80 h-80 rounded-full overflow-hidden p-2">
+            <div className="flex items-center justify-center w-full md:w-1/2">
+              <div className="relative w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden p-2">
                 <div className="absolute inset-0 rounded-full border-4 border-dashed border-[#ffd240] animate-[spin_20s_linear_infinite]" />
+
                 <img
-                  className="w-full h-full rounded-full"
+                  className="w-full h-full rounded-full object-fit"
                   src="https://res.cloudinary.com/dmdnq9vh8/image/upload/v1727979151/PORTFOLIO/original_picture_rq8bmg.jpg"
                   alt="profile"
                 />
               </div>
             </div>
           </div>
-
-          <div className="flex flex-col gap-2">
+          {/* <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <h1 className="text-base font-black tracking-wide">Tech Stack</h1>
 
@@ -290,11 +292,11 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
-      <section id="about" className="max-w-4xl mx-auto mt-42">
+      {/* <section id="about" className="max-w-4xl mx-auto mt-42">
         <div className="flex items-start justify-between gap-10">
           <div className="w-1/2 h-full">
             <img
@@ -324,9 +326,9 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="projects" className="max-w-4xl mx-auto mt-42">
+      {/* <section id="projects" className="max-w-4xl mx-auto mt-42">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text-base font-black uppercase text-blue-600 tracking-wider">
@@ -402,9 +404,9 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="contact" className="max-w-4xl mx-auto my-42">
+      {/* <section id="contact" className="max-w-4xl mx-auto my-42">
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-4">
             <h1 className="text-base font-black uppercase text-blue-600 tracking-wider">
@@ -477,7 +479,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
