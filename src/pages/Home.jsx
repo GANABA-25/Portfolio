@@ -415,8 +415,15 @@ export default function Home() {
 
           <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4">
             <p className="text-sm text-yellow-800">
-              <span className="font-bold">Note:</span> These accounts are
-              provided for testing purposes only.
+              Note: These demo accounts are provided for testing and evaluation
+              purposes. If you encounter a connection error, it may be because
+              the{" "}
+              <span className="font-bold text-red-600">
+                {" "}
+                MongoDB cluster is temporarily paused due to inactivity.{" "}
+              </span>
+              Please contact me, and I will restore the database service as soon
+              as possible.
             </p>
           </div>
         </div>
