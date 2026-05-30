@@ -94,7 +94,7 @@ const projectData = [
     techStack4: "MongoDB",
     code: "Code",
     gitIcon: <FaGithub />,
-    link1: "https://github.com/GANABA-25/Frambeg-Tech",
+    link1: "https://github.com/GANABA-25/FrambegTech.git",
     liveDemo: "Live Demo",
     link2: "https://frambeg-tech.vercel.app",
     liveIcon: <AiOutlineDeliveredProcedure />,
@@ -120,7 +120,7 @@ const projectData = [
     techStack4: "MongoDB",
     code: "Code",
     gitIcon: <FaGithub />,
-    link1: "https://github.com/GANABA-25/Frambeg-Tech",
+    link1: "https://github.com/GANABA-25/Group_Box.git",
     liveDemo: "Live Demo",
     link2: "https://groupbox.vercel.app",
     liveIcon: <AiOutlineDeliveredProcedure />,
@@ -147,7 +147,7 @@ const projectData = [
     techStack4: "MongoDB",
     code: "Code",
     gitIcon: <FaGithub />,
-    link1: "https://github.com/Nathaniel-Owusu/RoyalEmber-Hotel.git",
+    link1: "https://github.com/GANABA-25/ClearSight.git",
     liveDemo: "Live Demo",
     link2: "https://royal-ember-hotel.vercel.app/",
     liveIcon: <AiOutlineDeliveredProcedure />,
@@ -177,7 +177,7 @@ const projectData = [
     techStack4: "MongoDB",
     code: "Code",
     gitIcon: <FaGithub />,
-    link1: "https://github.com/Nathaniel-Owusu/Gamers-Ring.git",
+    link1: "https://github.com/GANABA-25/DriveElite.git",
     liveDemo: "Live Demo",
     link2: "https://drive-elite-gamma.vercel.app",
     liveIcon: <AiOutlineDeliveredProcedure />,
@@ -202,7 +202,7 @@ const projectData = [
     techStack4: "MongoDB",
     code: "Code",
     gitIcon: <FaGithub />,
-    link1: "https://github.com/Nathaniel-Owusu/Gamers-Ring.git",
+    link1: "https://github.com/GANABA-25/GamersRing.git",
     liveDemo: "Live Demo",
     link2: "https://gamers-ring.vercel.app/",
     liveIcon: <AiOutlineDeliveredProcedure />,
@@ -361,6 +361,9 @@ export default function Home() {
                   <p className="font-medium">@Nathaniel@2580</p>
                 </div>
               </div>
+              <h1 className="text-sm text-blue-700 mt-4 font-bold">
+                For mobile apps please contact me for the demonstration.
+              </h1>
             </div>
 
             <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition duration-300">
