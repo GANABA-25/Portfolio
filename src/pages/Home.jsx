@@ -179,7 +179,7 @@ const projectData = [
     gitIcon: <FaGithub />,
     link1: "https://github.com/Nathaniel-Owusu/Gamers-Ring.git",
     liveDemo: "Live Demo",
-    link2: "https://gamers-ring.vercel.app/",
+    link2: "https://drive-elite-gamma.vercel.app",
     liveIcon: <AiOutlineDeliveredProcedure />,
   },
   {
@@ -325,6 +325,95 @@ export default function Home() {
               Tailwind CSS, JavaScript, TypeScript, React, Next.js, and React
               Native .With Node.js and MongoDB on the back end, I turn ideas
               into scalable, high-performing digital solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-4xl mx-4 lg:mx-auto mt-20 md:mt-32">
+        <div className="flex flex-col gap-6">
+          <div>
+            <h2 className="text-2xl font-black">Demo Accounts</h2>
+            <p className="text-gray-600 text-sm mt-1">
+              Use any of the accounts below to test the application.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition duration-300">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-3 h-3 rounded-full bg-green-500" />
+                <h3 className="font-black text-lg">Other Projects Account</h3>
+              </div>
+
+              <div className="space-y-3">
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                    Email
+                  </p>
+                  <p className="font-medium break-all">ganabacode@gmail.com</p>
+                </div>
+
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                    Password
+                  </p>
+                  <p className="font-medium">@Nathaniel@2580</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition duration-300">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-3 h-3 rounded-full bg-blue-500"></div>
+                <h3 className="font-black text-lg">GroupBox Account</h3>
+              </div>
+              <div className="flex flex-col md:flex-row gap-6">
+                <div className="space-y-3">
+                  <h1 className="font-black">Student Account</h1>
+                  <div>
+                    <p className="text-xs uppercase tracking-wide text-gray-500">
+                      schoolEmail
+                    </p>
+                    <p className="font-medium break-all">
+                      ads23a00077y@ait.edu.gh
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="text-xs uppercase tracking-wide text-gray-500">
+                      Password
+                    </p>
+                    <p className="font-medium">@Nathaniel@2580</p>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <h1 className="font-black">Lectures</h1>
+                  <div>
+                    <p className="text-xs uppercase tracking-wide text-gray-500">
+                      schoolEmail
+                    </p>
+                    <p className="font-medium break-all">
+                      ganabacode@ait.edu.gh
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="text-xs uppercase tracking-wide text-gray-500">
+                      Password
+                    </p>
+                    <p className="font-medium">@Nathaniel@2580</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-yellow-200 bg-yellow-50 p-4">
+            <p className="text-sm text-yellow-800">
+              <span className="font-bold">Note:</span> These accounts are
+              provided for testing purposes only.
             </p>
           </div>
         </div>
